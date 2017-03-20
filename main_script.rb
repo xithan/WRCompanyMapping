@@ -1,5 +1,3 @@
-require 'net/http'
-require 'json'
 require 'csv'
 require './company_mapper'
 require_relative 'DocumentUtils/corpus'
