@@ -1,5 +1,4 @@
 class Corpus
-
   def initialize
     @corpus = Set.new
   end
