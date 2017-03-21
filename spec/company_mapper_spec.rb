@@ -23,11 +23,11 @@ RSpec.describe CompanyMapper do
     end
 
     it "maps 'BRF.'" do
-      expect(map "brf").to eq brf_id
+      expect(map "BRF.").to eq brf_id
     end
 
     it "maps 'brf Inc.'" do
-      expect(map"brf Inc").to eq brf_id
+      expect(map"brf Inc.").to eq brf_id
     end
 
     it "maps 'brf co'" do
@@ -43,7 +43,7 @@ RSpec.describe CompanyMapper do
     let(:threshold) { 0.9 }
 
     it "maps 'BRF'" do
-      expect(map "brf").to eq brf_id
+      expect(map "BRF").to eq brf_id
     end
 
     it "does not map brf co" do
